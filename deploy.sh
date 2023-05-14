@@ -7,7 +7,8 @@ terraform init
 terraform validate -compact-warnings
 
 # Terraform plan
-terraform plan -compact-warnings -out main.tfplan
+terraform plan -compact-warnings -out main.tfplan -var resource_prefix=abc
 
 # Terraform apply
 terraform apply -compact-warnings -auto-approve main.tfplan
+

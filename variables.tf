@@ -83,7 +83,7 @@ variable "private_endpoint_subnet_address_prefix" {
 
 variable "storage_account_name" {
   description = "(Optional) Specifies the name of the storage account"
-  default     = "account"
+  default     = "stcontainerapps"
   type        = string
 }
 
